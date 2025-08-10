@@ -7,7 +7,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "OpenDriveVLA"
-version = "1.0.0.dev1\"
+version = "1.0.0.dev1"
 description = "OpenDriveVLA"
 readme = "README.md"
 requires-python = ">=3.8"
