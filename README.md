@@ -20,19 +20,22 @@
 We will release the model code and checkpoints soon. Stay tuned! 🔥
 
 - [x] Release environment setup
-- [ ] Release inference code
+- [x] Release inference code
 - [ ] Release checkpoints
-- [ ] Release training code
+
 
 ## News 📢
 
+- **`2025/08/10`** OpenDriveVLA model & inference code released. 🔥
 - **`2025/04/01`** OpenDriveVLA [paper](https://arxiv.org/abs/2503.23463) is available on arXiv.
 - **`2025/03/28`** We release the environment setup of OpenDriveVLA.
   - To make the dependencies of our OpenDriveVLA model [[mmcv](https://github.com/open-mmlab/mmcv) & [mmdet3d](https://github.com/open-mmlab/mmdetection3d)] compatible with [PyTorch 2.1.2](https://pytorch.org/) and support [Transformers](https://github.com/huggingface/transformers) and [Deepspeed](https://github.com/deepspeedai/DeepSpeed), we selected specific versions and enhanced the source code accordingly. The resulting customized libraries are available in the `third_party` folder.
 
 ## Getting Started 🌟
 
-1. [OpenDriveVLA Environment Installation](docs/1_INSTALL.md)
+1. [Environment Installation](docs/1_INSTALL.md)
+2. [Data Preparation](docs/2_DATA_PREP.md)
+3. [Inference & Evaluatation](docs/3_EVAL.md)
 
 ## Citation 📝
 
