@@ -1,0 +1,103 @@
+[tool.black]
+line-length = 240
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "OpenDriveVLA"
+version = "1.0.0.dev1\"
+description = "OpenDriveVLA"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: Apache Software License",
+]
+
+[project.optional-dependencies]
+standalone = [
+    "shortuuid",
+    "httpx==0.24.0",
+    "einops",
+    "ftfy",
+]
+
+train = [
+    "llava[standalone]",
+    "numpy==1.26.1",
+    "open_clip_torch",
+    "fastapi",
+    "gradio==3.35.2",
+    "markdown2[all]",
+    "numpy",
+    "requests",
+    "sentencepiece",
+    "torch==2.1.2",
+    "torchvision==0.16.2",
+    "uvicorn",
+    "wandb",
+    "deepspeed==0.14.2",
+    "peft==0.4.0",
+    "accelerate==0.29.3",
+    "tokenizers~=0.15.2",
+    "transformers@git+https://github.com/huggingface/transformers.git@1c39974a4c4036fd641bc1191cc32799f85715a4",
+    "flash-attn==2.5.7",
+    "bitsandbytes==0.41.0",
+    "scikit-learn==1.2.2",
+    "sentencepiece~=0.1.99",
+    "einops==0.6.1",
+    "einops-exts==0.0.4",
+    "gradio_client==0.2.9",
+    "urllib3<=2.0.0",
+    "datasets==2.16.1",
+    "pydantic==1.10.8",
+    "timm",
+    "hf_transfer",
+    "opencv-python",
+    "av",
+    "decord",
+    "tyro",
+    "scipy",
+    "pytorch-lightning==1.2.5",
+    "torchmetrics==0.11.4",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/DriveVLA/DriveVLA.github.io"
+
+[tool.setuptools.packages.find]
+include = ["llava*", "trl*", "drivevla*"]
+exclude = [
+    "assets*",
+    "benchmark*",
+    "docs",
+    "dist*",
+    "playground*",
+    "scripts*",
+    "tests*",
+    "checkpoints*",
+    "project_checkpoints*",
+    "debug_checkpoints*",
+    "mlx_configs*",
+    "wandb*",
+    "notebooks*",
+]
+
+[tool.wheel]
+exclude = [
+    "assets*",
+    "benchmark*",
+    "docs",
+    "dist*",
+    "playground*",
+    "scripts*",
+    "tests*",
+    "checkpoints*",
+    "project_checkpoints*",
+    "debug_checkpoints*",
+    "mlx_configs*",
+    "wandb*",
+    "notebooks*",
+]
