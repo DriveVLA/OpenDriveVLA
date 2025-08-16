@@ -33,7 +33,7 @@ cd DriveVLA/data/nuscenes
 gdown 16X0_-v-iXP9hVLNaDMmIiGhZKj24YOnb
 ```
 
-## The Overall Structure
+### The Overall Structure
 
 ```shell
 DriveVLA
@@ -51,9 +51,9 @@ DriveVLA
 │   │   ├── cached_nuscenes_info.pkl
 ```
 
-### Evaluation Dataset
+## Evaluation Dataset
 
-We adopt the GT cache from GPTDriver. Download gt for evaluation at [Google Drive](https://drive.google.com/drive/folders/1NCqPtdK8agPi1q3sr9-8-vPdYj08OCAE).
+We adopt the GT cache from [GPT-Driver](https://github.com/PointsCoder/GPT-Driver). Download gt for evaluation at [Google Drive](https://drive.google.com/drive/folders/1NCqPtdK8agPi1q3sr9-8-vPdYj08OCAE).
 
 The structure is as follows:
 
