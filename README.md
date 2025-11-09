@@ -26,6 +26,7 @@ We will release the model code and checkpoints soon. Stay tuned! 🔥
 
 ## News 📢
 
+- **`2025/11/08`** OpenDriveVLA paper accepted by AAAI 2026. 🎉
 - **`2025/08/10`** OpenDriveVLA model & inference code released. 🔥
 - **`2025/04/01`** OpenDriveVLA [paper](https://arxiv.org/abs/2503.23463) is available on arXiv.
 - **`2025/03/28`** We release the environment setup of OpenDriveVLA.
