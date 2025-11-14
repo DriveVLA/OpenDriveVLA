@@ -12,8 +12,7 @@
 - [Todo List](#todo-list-)
 - [News](#news-)
 - [Getting Started](#getting-started-)
-- [Citation](#citation)
-- [Related Resources](#related-resources)
+- [Citation](#citation-)
 
 ## TODO List 📅
 
@@ -21,11 +20,13 @@ We will release the model code and checkpoints soon. Stay tuned! 🔥
 
 - [x] Release environment setup
 - [x] Release inference code
-- [ ] Release checkpoints
+- [x] Release checkpoints
+- [ ] Release training scripts
 
 
 ## News 📢
 
+- **`2025/11/14`** Released the OpenDriveVLA 0.5B checkpoint on [Hugging Face](https://huggingface.co/OpenDriveVLA/OpenDriveVLA-0.5B). 🌟
 - **`2025/11/08`** OpenDriveVLA paper accepted by AAAI 2026. 🎉
 - **`2025/08/10`** OpenDriveVLA model & inference code released. 🔥
 - **`2025/04/01`** OpenDriveVLA [paper](https://arxiv.org/abs/2503.23463) is available on arXiv.
