@@ -46,7 +46,7 @@ If you find our project useful for your research, please consider citing our pap
 ```bibtex
 @misc{zhou2025opendrivevlaendtoendautonomousdriving,
       title={OpenDriveVLA: Towards End-to-end Autonomous Driving with Large Vision Language Action Model}, 
-      author={Xingcheng Zhou and Xuyuan Han and Feng Yang and Yunpu Ma and Alois C. Knoll},
+      author={Xingcheng Zhou and Xuyuan Han and Feng Yang and Yunpu Ma and Volker Tresp and Alois Knoll},
       year={2025},
       eprint={2503.23463},
       archivePrefix={arXiv},
