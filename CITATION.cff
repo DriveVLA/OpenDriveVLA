@@ -1,8 +1,0 @@
-cff-version: 1.2.0
-message: "If you use this software, please cite it as below."
-authors:
-  - name: "Xuyuan Han"
-title: "Planning-oriented Autonomous Driving with Vision Language Models"
-date-released: 2024-12-25
-url: "https://gitlab.lrz.de/000000000149F100/drivevlms"
-license: Apache-2.0
